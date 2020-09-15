@@ -105,6 +105,7 @@ public class customReportListener implements EventListener {
         Date startTime = scenario.getExtent().getReport().getEndTime();
         step.log(Status.INFO, "Test Case execution started at " + startTime.toString());
     };
+  
     
 	
 
